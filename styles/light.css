@@ -4,7 +4,9 @@
   --sub-text-color: #353430;
   --accent-color: #ff8dcb;
   --btn-color:#353430;
-  --backgroung-image: url(../images/cover-image-light.png);
+  --background-image: url(../images/cover-image-light.png);
+  --background-color: #fff1f7;
+;
 }
 
 .theme_light .decorative__element {
@@ -12,7 +14,7 @@
 }
 
 .theme_light .header__theme-menu-button:hover {
-  border: 1px solid rgba(50, 49, 45, 0.40);
+  border: var(--border-light-button-hover);
 }
 
 @media (prefers-color-scheme: light) {
@@ -22,23 +24,28 @@
     --sub-text-color: #353430;
     --accent-color: #ff8dcb;
     --btn-color:#353430;
-    --backgroung-image: url(../images/cover-image-light.png);
+    --background-image: url(../images/cover-image-light.png);
+    --background-color: #fff1f7;
   }
   .decorative__element {
     display: none;
   }
   
   .header__theme-menu-button:hover {
-    border: 1px solid rgba(50, 49, 45, 0.40);
+    border: var(--border-light-button-hover);
   }
 }  
 
+.footer__title .header__title {
+  --text-shadow: 4px 4px 0 #ff0070;
+}
 
 @media (min-width: 1024px) {
   .header__title {
-    text-shadow: 4px 4px 0 #FF0070;
+    text-shadow: var(--text-shadow);
   }
   .footer__title {
-    text-shadow: 4px 4px 0 #FF0070;
+    text-shadow: var(--text-shadow);
   }
 }
+
