@@ -15,3 +15,9 @@
 .theme_dark .header__theme-menu-button:hover {
   border: var(--border-dark-button-hover);
 }
+
+@media (min-width: 1024px) {
+  .header__title .footer__title {
+    text-shadow: var(--text-shadow);
+  }
+}

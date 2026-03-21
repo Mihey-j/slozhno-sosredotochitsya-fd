@@ -36,16 +36,9 @@
   }
 }  
 
-.footer__title .header__title {
-  --text-shadow: 4px 4px 0 #ff0070;
-}
-
 @media (min-width: 1024px) {
-  .header__title {
-    text-shadow: var(--text-shadow);
-  }
-  .footer__title {
-    text-shadow: var(--text-shadow);
+  .header__title .footer__title {
+    text-shadow: var(--text-shadow-light);
   }
 }
 
