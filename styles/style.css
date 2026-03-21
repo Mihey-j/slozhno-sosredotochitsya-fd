@@ -107,7 +107,6 @@
   color: var(--title-color);
   font-weight: 700;
   line-height: 82.5%;
-  text-shadow: var(--text-shadow);
 }
 
 .title-decor {
