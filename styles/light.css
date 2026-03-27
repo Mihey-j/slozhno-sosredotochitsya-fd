@@ -6,7 +6,7 @@
   --btn-color:#353430;
   --background-image: url(../images/cover-image-light.png);
   --background-color: #fff1f7;
-;
+  --text-shadow-color: #FF8DCB;
 }
 
 .theme_light .decorative__element {
@@ -14,7 +14,7 @@
 }
 
 .theme_light .header__theme-menu-button:hover {
-  border: var(--border-light-button-hover);
+  --border-button-hover: 1px solid rgba(50, 49, 45, 0.40);
 }
 
 @media (prefers-color-scheme: light) {
@@ -32,13 +32,13 @@
   }
   
   .header__theme-menu-button:hover {
-    border: var(--border-light-button-hover);
+    --border-button-hover: 1px solid rgba(50, 49, 45, 0.40);
   }
 }  
 
 @media (min-width: 1024px) {
   .header__title .footer__title {
-    text-shadow: var(--text-shadow-light);
+    --text-shadow-color: #FF8DCB;
   }
 }
 

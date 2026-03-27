@@ -1,3 +1,5 @@
+
+
 .page.theme_dark {
   --title-color: #DB00FF;
   --text-color: #F1B2CE;
@@ -8,16 +10,17 @@
   --background-color: #000028;
 }
 
+
 .theme_dark .decorative__element {
   display: flex;
 }
 
 .theme_dark .header__theme-menu-button:hover {
-  border: var(--border-dark-button-hover);
+  --border-button-hover: 1px solid rgba(255, 0, 112, 0.40);
 }
 
 @media (min-width: 1024px) {
   .header__title .footer__title {
-    text-shadow: var(--text-shadow);
+  --text-shadow-color: #ff0070;
   }
 }
